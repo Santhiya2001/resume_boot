@@ -1,0 +1,46 @@
+:root{
+    --black: #000,
+}
+.round{
+    border-radius: 50%;
+}
+.aboutbtn{
+    background-color: darkblue;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 6px 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.aboutbtn span i{
+    margin-left: 10px;
+    transform: rotate(90deg);
+    color: #000;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 3px;
+}
+.custom-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-media div{
+    width: 40px;
+    height: 40px;
+    background-color: #000;  
+}
+.social-media div i{
+    color: aqua;
+}
+.background{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.background img{
+    object-fit: contain;
+}
